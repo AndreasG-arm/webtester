@@ -61,6 +61,9 @@ public class Webtester {
 		driver.findElement(By.xpath
 				("/html/body/div/center/table/tbody/tr[2]/td/div/center/table/tbody/tr/td[2]/p/small/a[4]"))
 				.click();
-		
+	}
+	
+	public void pomTestDemoSite() {
+		driver.manage().window().maximize();
 	}
 }
